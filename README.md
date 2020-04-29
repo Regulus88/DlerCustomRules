@@ -2,4 +2,6 @@
 
 Folder `myrule` contains my personal need.
 
-`MyMayingGFW.ini` is for MayingSSR.
+`Maying.ini` is for Maying.
+
+`DlerSS.ini` is for Dler ShadowSocks.
