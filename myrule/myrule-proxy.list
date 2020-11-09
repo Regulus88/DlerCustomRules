@@ -1,6 +1,5 @@
 # Prxoy
 DOMAIN-SUFFIX,workona.com
-DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,typingclub.com
 
@@ -11,4 +10,4 @@ DOMAIN-SUFFIX,tempestapp.io
 DOMAIN-SUFFIX,tempestkb.io
 
 #PlusMoive
-DOMAIN-SUFFIX,xeton.dev
+#DOMAIN-SUFFIX,xeton.dev
