@@ -6,3 +6,11 @@ DOMAIN,emby.maying.club
 
 # Emby MDSS
 DOMAIN,emby.mdss.cloud
+
+# Emby Plus
+DOMAIN,emby.plusmedia.site
+DOMAIN,bgp.emby.mickeycloud.com
+DOMAIN,emby.xeton.dev
+DOMAIN,jellyfin.xeton.dev
+DOMAIN,movie.xeton.dev
+DOMAIN,servers.xeton.dev
