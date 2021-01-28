@@ -4,7 +4,7 @@ It's designed for `subconverter` transmission.
 
 ## MyMixin1
 
-Dler & Nexitally & AAEX & Wave & Hitun & MDSS & Big
+Dler & Nexitally & Maying & BLinkload & Wave & Hitun & MDSS & Big
 
 ## MyMixin2
 
