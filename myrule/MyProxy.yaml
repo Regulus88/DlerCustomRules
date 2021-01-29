@@ -1,0 +1,11 @@
+payload:  
+  # > Proxy
+  - DOMAIN-SUFFIX,workona.com
+  - DOMAIN-SUFFIX,duyaoss.com
+  - DOMAIN-SUFFIX,typingclub.com
+  
+  # > Airport
+  - DOMAIN-SUFFIX,dlercloud.com
+  - DOMAIN-SUFFIX,maying.co
+  - DOMAIN-SUFFIX,nexitally.net
+  - DOMAIN-SUFFIX,hitun.io

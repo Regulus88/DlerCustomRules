@@ -1,0 +1,4 @@
+payload:  
+  # > Direct
+  - DOMAIN-SUFFIX,yooli.com
+  - DOMAIN-SUFFIX,zju.edu.cn

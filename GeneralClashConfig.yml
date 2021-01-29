@@ -265,6 +265,8 @@ rules:
 - RULE-SET,Soundcloud,GlobalTV
 - RULE-SET,ViuTV,GlobalTV
 
+- RULE-SET,Emby,Emby
+
 - RULE-SET,Telegram,Telegram
 - RULE-SET,Steam,Steam
 - RULE-SET,Speedtest,Speedtest
@@ -272,11 +274,13 @@ rules:
 - RULE-SET,Microsoft,Microsoft
 
 - RULE-SET,PROXY,Proxy
+- RULE-SET,MyProxy,Proxy
 
 - RULE-SET,Apple,Apple
 
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
+- RULE-SET,MyDirect,Domestic
 
 - RULE-SET,LAN,DIRECT
 - GEOIP,CN,Domestic
@@ -325,15 +329,18 @@ script:
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
             "ViuTV": "GlobalTV",
+            "Emby": "Emby",
             "Telegram": "Telegram",
             "Steam": "Steam",
             "Speedtest": "Speedtest",
             "PayPal": "PayPal",
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
+            "MyProxy": "Proxy",
             "Apple": "Apple",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
+            "MyDirect": "Domestic",
             "LAN": "DIRECT"
             }
         port = int(metadata["dst_port"])
@@ -663,4 +670,22 @@ rule-providers:
     behavior: classical
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/LAN.yaml'
     path: ./Rules/LAN
+    interval: 86400
+   Emby:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/Emby.yaml'
+    path: ./Rules/Emby
+    interval: 86400 
+  MyDirect:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyDirect.yaml'
+    path: ./Rules/MyDirect
+    interval: 86400
+  MyProxy:
+    type: http
+    behavior: classical
+    url:  'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyProxy.yaml'
+    path: ./Rules/MyProxy
     interval: 86400
