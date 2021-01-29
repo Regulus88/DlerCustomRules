@@ -10,7 +10,7 @@ experimental:
 # Rule Provider
 
 - RULE-SET,Reject,AdBlock
-- RULE-SET,Special,Domestic
+- RULE-SET,Special,DIRECT
 
 - RULE-SET,Netflix,Netflix
 - RULE-SET,Spotify,Spotify
@@ -56,8 +56,6 @@ experimental:
 - RULE-SET,Soundcloud,GlobalTV
 - RULE-SET,ViuTV,GlobalTV
 
-- RULE-SET,Emby,Emby
-
 - RULE-SET,Telegram,Telegram
 - RULE-SET,Steam,Steam
 - RULE-SET,Speedtest,Speedtest
@@ -65,13 +63,11 @@ experimental:
 - RULE-SET,Microsoft,Microsoft
 
 - RULE-SET,PROXY,Proxy
-- RULE-SET,MyProxy,Proxy
 
 - RULE-SET,Apple,Apple
 
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
-- RULE-SET,MyDirect,Domestic
 
 - RULE-SET,LAN,DIRECT
 - GEOIP,CN,Domestic
@@ -82,7 +78,7 @@ script:
     def main(ctx, metadata):
         port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
         ruleset_action = {"Reject": "AdBlock",
-            "Special": "Domestic",
+            "Special": "DIRECT",
             "Netflix": "Netflix",
             "Spotify": "Spotify",
             "YouTube": "YouTube",
@@ -120,41 +116,30 @@ script:
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
             "ViuTV": "GlobalTV",
-            "Emby": "Emby",
             "Telegram": "Telegram",
             "Steam": "Steam",
             "Speedtest": "Speedtest",
             "PayPal": "PayPal",
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
-            "MyProxy": "Proxy",
             "Apple": "Apple",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
-            "MyDirect": "Domestic",
             "LAN": "DIRECT"
             }
         port = int(metadata["dst_port"])
-
         if port not in port_list:
             return "DIRECT"
-
         for rule_name in ctx.rule_providers.keys():
             if ctx.rule_providers[rule_name].match(metadata):
                 return ruleset_action[rule_name]
-
         ip = metadata["dst_ip"] or ctx.resolve_ip(metadata["host"])
-
         if ip == "":
           return "DIRECT"
-
         code = ctx.geoip(ip)
-
         if code == "CN":
           return "Domestic"
-
         return "Final"
-
 rule-providers:
   Reject:
     type: http
@@ -402,12 +387,6 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/ViuTV.yaml'
     path: ./Rules/Media/ViuTV
     interval: 86400
-   Emby:
-    type: http
-    behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/Emby.yaml'
-    path: ./Rules/Emby
-    interval: 86400
   Telegram:
     type: http
     behavior: classical
@@ -444,12 +423,6 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
-  MyProxy:
-    type: http
-    behavior: classical
-    url:  'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyProxy.yaml'
-    path: ./Rules/MyProxy
-    interval: 86400
   Domestic:
     type: http
     behavior: classical
@@ -467,12 +440,6 @@ rule-providers:
     behavior: ipcidr
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
-    interval: 86400
-  MyDirect:
-    type: http
-    behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyDirect.yaml'
-    path: ./Rules/MyDirect
     interval: 86400
   LAN:
     type: http
