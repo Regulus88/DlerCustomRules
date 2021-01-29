@@ -611,6 +611,12 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/ViuTV.yaml'
     path: ./Rules/Media/ViuTV
     interval: 86400
+   Emby:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/Emby.yaml'
+    path: ./Rules/Emby
+    interval: 86400 
   Telegram:
     type: http
     behavior: classical
@@ -647,6 +653,12 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
+  MyProxy:
+    type: http
+    behavior: classical
+    url:  'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyProxy.yaml'
+    path: ./Rules/MyProxy
+    interval: 86400
   Domestic:
     type: http
     behavior: classical
@@ -665,27 +677,15 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
     interval: 86400
-  LAN:
-    type: http
-    behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/LAN.yaml'
-    path: ./Rules/LAN
-    interval: 86400
-   Emby:
-    type: http
-    behavior: classical
-    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/Emby.yaml'
-    path: ./Rules/Emby
-    interval: 86400 
   MyDirect:
     type: http
     behavior: classical
     url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyDirect.yaml'
     path: ./Rules/MyDirect
     interval: 86400
-  MyProxy:
+  LAN:
     type: http
     behavior: classical
-    url:  'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyProxy.yaml'
-    path: ./Rules/MyProxy
+    url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/LAN.yaml'
+    path: ./Rules/LAN
     interval: 86400
