@@ -9,3 +9,8 @@ payload:
   - DOMAIN-SUFFIX,maying.co
   - DOMAIN-SUFFIX,nexitally.net
   - DOMAIN-SUFFIX,hitun.io
+  
+  # > Google
+  - DOMAIN-KEYWORD,mtalk.google.com
+  - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,dl.google.com
