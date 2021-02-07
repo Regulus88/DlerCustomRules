@@ -11,7 +11,7 @@ payload:
   # > Emby Plus
   - DOMAIN,emby.plusmedia.site
   - DOMAIN,bgp.emby.mickeycloud.com
-  - DOMAIN,emby.xeton.dev
-  - DOMAIN,jellyfin.xeton.dev
-  - DOMAIN,movie.xeton.dev
-  - DOMAIN,servers.xeton.dev
+  - DOMAIN-SUFFIX,xeton.dev
+  
+  # > 厂妹
+  - DOMAIN-SUFFIX,emby.wtf
