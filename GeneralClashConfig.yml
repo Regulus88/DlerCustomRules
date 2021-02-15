@@ -218,6 +218,7 @@ cfw-proxies-order: default
 
 # Rule Provider
 rules:
+- RULE-SET,MyDirect,Domestic
 - RULE-SET,Reject,AdBlock
 - RULE-SET,MyProxy,Proxy
 - RULE-SET,Special,Domestic
@@ -280,7 +281,6 @@ rules:
 
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
-- RULE-SET,MyDirect,Domestic
 
 - RULE-SET,LAN,DIRECT
 - GEOIP,CN,Domestic
@@ -290,7 +290,8 @@ script:
   code: |
     def main(ctx, metadata):
         port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
-        ruleset_action = {"Reject": "AdBlock",
+        ruleset_action = {"MyDirect": "Domestic",
+            "Reject": "AdBlock",
             "MyProxy": "Proxy",
             "Special": "Domestic",
             "Netflix": "Netflix",
@@ -339,8 +340,7 @@ script:
             "PROXY": "Proxy",
             "Apple": "Apple",
             "Domestic": "Domestic",
-            "Domestic IPs": "Domestic",
-            "MyDirect": "Domestic",
+            "Domestic IPs": "Domestic",            
             "LAN": "DIRECT"
             }
         port = int(metadata["dst_port"])
