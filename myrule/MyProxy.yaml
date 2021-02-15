@@ -16,7 +16,7 @@ payload:
   - DOMAIN-SUFFIX,dl.google.com
   
   # > Pocket Casts
-  - USER-AGENT,Pocket%20Casts*
+  # - USER-AGENT,Pocket%20Casts*
   - DOMAIN-SUFFIX,pocketcasts.com
   - DOMAIN-SUFFIX,shiftyjelly.com
   - DOMAIN-SUFFIX,shiftyjelly.com.au
