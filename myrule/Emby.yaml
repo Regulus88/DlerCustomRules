@@ -8,6 +8,9 @@ payload:
   # > Emby MDSS
   - DOMAIN,emby.mdss.cloud
   
+  # > Emby Wave
+  - DOMAIN-SUFFIX,embyserver.ga
+  
   # > Emby Plus
   - DOMAIN,emby.plusmedia.site
   - DOMAIN,bgp.emby.mickeycloud.com
