@@ -8,7 +8,7 @@ Dler & Nexitally & BLinkload & Wave & Hitun & Big
 
 ## MyMixin2
 
-Dler & Nex & Maying & Hitun & Wave & Big
+Dler & Nexitally & BLinkload & LinkCube & Wave & Hitun & Big
 
 ## MyGohome1
 
