@@ -12,8 +12,8 @@ Dler & Nexitally & BLinkload & LinkCube & Wave & Hitun & Big
 
 ## MyGohome1
 
-Dler & Nexitally & Hitun & Wave & Gohome
+Dler & Nexitally & Hitun & Wave & LinkCube & Gohome
 
 ## MyGohome2
 
-Dler & Nexitally & Wave & Gohome
+Dler & Nexitally & Wave & LinkCube & Gohome
