@@ -311,6 +311,8 @@ rules:
 
 - RULE-SET,Apple,Apple
 
+- RULE-SET,Scholar,Scholar
+
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
 
@@ -371,6 +373,7 @@ script:
             "Microsoft": "Microsoft",
             "PROXY": "Proxy",
             "Apple": "Apple",
+            "Scholar": "Scholar",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",            
             "LAN": "DIRECT"
@@ -702,6 +705,12 @@ rule-providers:
     behavior: classical
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Apple.yaml'
     path: ./Rules/Apple
+    interval: 86400
+  Scholar:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Scholar.yaml'
+    path: ./Rules/Scholar
     interval: 86400
   Domestic IPs:
     type: http
