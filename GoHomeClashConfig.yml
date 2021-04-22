@@ -217,7 +217,7 @@ cfw-proxies-order: default
 # 系统代理跳过列表-备份的，不起作用，
 # 使用时可以将cfw-bypass-bak与cfw-bypass内容互换
 
-cfw-bypass-bak:
+cfw-bypass:
   # 原有字段不用删除
   - qq.com
   - 'music.163.com' # 网易云域名1
