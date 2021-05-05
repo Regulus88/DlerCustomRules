@@ -299,6 +299,7 @@ rules:
 - RULE-SET,Soundcloud,GlobalTV
 - RULE-SET,ViuTV,GlobalTV
 
+- RULE-SET,TikTok,TikTok
 - RULE-SET,Emby,Emby
 
 - RULE-SET,Telegram,Telegram
@@ -365,6 +366,7 @@ script:
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
             "ViuTV": "GlobalTV",
+            "TikTok": "TikTok",
             "Emby": "Emby",
             "Telegram": "Telegram",
             "Steam": "Steam",
@@ -729,4 +731,10 @@ rule-providers:
     behavior: classical
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/LAN.yaml'
     path: ./Rules/LAN
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/TikTok.yaml'
+    path: ./Rules/TikTok
     interval: 86400
