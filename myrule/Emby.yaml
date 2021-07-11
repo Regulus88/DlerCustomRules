@@ -9,7 +9,7 @@ payload:
   - DOMAIN,emby.mdss.cloud
   
   # > Emby Wave
-  - DOMAIN-SUFFIX,embyserver.ga
+  - DOMAIN-SUFFIX,emby.page
   
   # > Emby LinkCube
   - DOMAIN,emby.linkfireka.xyz
