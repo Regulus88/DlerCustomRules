@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,workona.com
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,typingclub.com
+  - DOMAIN-SUFFIX,relay.firefox.com 
   
   # > Airport
   - DOMAIN-SUFFIX,dlercloud.com
