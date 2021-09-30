@@ -4,6 +4,8 @@ payload:
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,typingclub.com
   - DOMAIN-SUFFIX,relay.firefox.com 
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,gist.github.com
   
   # > Airport
   - DOMAIN-SUFFIX,dlercloud.com
