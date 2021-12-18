@@ -405,6 +405,12 @@ script:
         return "Final"
 
 rule-providers:
+  MyNonChina:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyNonChina.yaml'
+    path: ./Rules/MyNonChina
+    interval: 86400
   Reject:
     type: http
     behavior: classical
@@ -728,12 +734,6 @@ rule-providers:
     behavior: classical
     url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyDirect.yaml'
     path: ./Rules/MyDirect
-    interval: 86400
-  MyNonChina:
-    type: http
-    behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyNonChina.yaml'
-    path: ./Rules/MyNonChina
     interval: 86400
   LAN:
     type: http
