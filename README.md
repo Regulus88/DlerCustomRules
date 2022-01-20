@@ -4,16 +4,16 @@ It's designed for `subconverter` transmission.
 
 ## MyMixin1
 
-Dler & Nexitally & BLinkload & Wave & Hitun & Big
+Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog & Boom
 
 ## MyMixin2
 
-Dler & Nexitally & BLinkload & LinkCube & Wave & Hitun & Big
+Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog
 
-## MyGohome1
+## MyMixin3
 
-Dler & Nexitally & Hitun & Wave & LinkCube & Gohome
+Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & FlowerSemi
 
-## MyGohome2
+## Surge
 
-Dler & Nexitally & Wave & LinkCube & Gohome
+Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog
