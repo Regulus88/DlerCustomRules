@@ -4,7 +4,7 @@ It's designed for `subconverter` transmission.
 
 ## MyMixin1
 
-Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog & Boom
+Dler & Nexitally & LinkCube & PiKaChu & TAG & Flower & Frog & Boom
 
 ## MyMixin2
 
