@@ -12,8 +12,8 @@ Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog
 
 ## MyMixin3
 
-Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & FlowerSemi
+Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & TAG
 
 ## Surge
 
-Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog
+Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog & Tag
