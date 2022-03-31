@@ -16,4 +16,4 @@ Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & TAG
 
 ## Surge
 
-Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog & Tag
+Dler & Nexitally & LinkCube & PiKaChu & Tag & Flower & Frog
