@@ -8,11 +8,11 @@ Dler & Nexitally & LinkCube & PiKaChu & TAG & Flower & Frog & Boom
 
 ## MyMixin2
 
-Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & Flower & Frog
+Dler & Nexitally & LinkCube & PiKaChu & TAG & Flower & Frog
 
 ## MyMixin3
 
-Dler & Nexitally & LinkCube & PiKaChu & EXFLUX & TAG
+Dler & Nexitally & LinkCube & PiKaChu & Flower & TAG
 
 ## Surge
 
