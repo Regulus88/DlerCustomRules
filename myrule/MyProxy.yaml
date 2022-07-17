@@ -26,3 +26,6 @@ payload:
   - DOMAIN-SUFFIX,shiftyjelly.com
   - DOMAIN-SUFFIX,shiftyjelly.com.au
   - DOMAIN,refresh.pocketcasts.com
+  
+  # > Piapak
+  - DOMAIN-SUFFIX,mypiakpak.com
