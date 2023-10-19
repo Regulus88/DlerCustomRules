@@ -501,37 +501,37 @@ rule-providers:
   Reject:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Reject.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml'
     path: ./Rules/Reject
     interval: 86400
   Special:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Special.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Special.yaml'
     path: ./Rules/Special
     interval: 86400
   Netflix:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Media/Netflix.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Netflix.yaml'
     path: ./Rules/Media/Netflix
     interval: 86400
   Spotify:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Media/Spotify.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Spotify.yaml'
     path: ./Rules/Media/Spotify
     interval: 86400
   # YouTube Music:
   #   type: http
   #   behavior: classical
-  #   url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Media/YouTube%20Music.yaml'
+  #   url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/YouTube%20Music.yaml'
   #   path: ./Rules/Media/YouTube_Music
   #   interval: 86400
   YouTube:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Media/YouTube.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/YouTube.yaml'
     path: ./Rules/Media/YouTube
     interval: 86400
   Bilibili:
@@ -765,37 +765,37 @@ rule-providers:
   Telegram:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Telegram.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml'
     path: ./Rules/Telegram
     interval: 86400
   Steam:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Steam.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml'
     path: ./Rules/Steam
     interval: 86400
   Speedtest:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Speedtest.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Speedtest.yaml'
     path: ./Rules/Speedtest
     interval: 86400
   PayPal:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/PayPal.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml'
     path: ./Rules/PayPal
     interval: 86400
   Microsoft:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Microsoft.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
   PROXY:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Proxy.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
   MyProxy:
@@ -807,25 +807,25 @@ rule-providers:
   Domestic:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Domestic.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml'
     path: ./Rules/Domestic
     interval: 86400
   Apple:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Apple.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml'
     path: ./Rules/Apple
     interval: 86400
   Scholar:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Scholar.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml'
     path: ./Rules/Scholar
     interval: 86400
   Domestic IPs:
     type: http
     behavior: ipcidr
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/Domestic%20IPs.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
     interval: 86400
   MyDirect:
@@ -837,7 +837,7 @@ rule-providers:
   LAN:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/dler-io/Rules@master/Clash/Provider/LAN.yaml'
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/LAN.yaml'
     path: ./Rules/LAN
     interval: 86400
   TikTok:
