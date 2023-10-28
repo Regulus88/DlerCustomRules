@@ -495,7 +495,7 @@ rule-providers:
   MyNonChina:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyNonChina.yaml'
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyNonChina.yaml'
     path: ./Rules/MyNonChina
     interval: 86400
   Reject:
@@ -759,7 +759,7 @@ rule-providers:
   Emby:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/Emby.yaml'
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/Emby.yaml'
     path: ./Rules/Emby
     interval: 86400
   Telegram:
@@ -801,7 +801,7 @@ rule-providers:
   MyProxy:
     type: http
     behavior: classical
-    url:  'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyProxy.yaml'
+    url:  'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyProxy.yaml'
     path: ./Rules/MyProxy
     interval: 86400
   Domestic:
@@ -831,7 +831,7 @@ rule-providers:
   MyDirect:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/MyDirect.yaml'
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/MyDirect.yaml'
     path: ./Rules/MyDirect
     interval: 86400
   LAN:
@@ -843,6 +843,6 @@ rule-providers:
   TikTok:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/SchweppesSoda/CustomRules@master/myrule/TikTok.yaml'
+    url: 'https://raw.githubusercontent.com/SchweppesSoda/CustomRules/master/myrule/TikTok.yaml'
     path: ./Rules/TikTok
     interval: 86400
