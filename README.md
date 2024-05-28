@@ -8,8 +8,8 @@ Dler & Nexitally & LinkCube & Tag & Flower
 
 ## MyMixin2
 
-Dler & Nexitally & LinkCube & YToo & Tag & Flower
+Dler & Nexitally & LinkCube & YToo & Flower
 
 ## Surge
 
-Dler & Nexitally & LinkCube & Tag & Flower & YToo
+Dler & Nexitally & LinkCube & Flower & YToo
